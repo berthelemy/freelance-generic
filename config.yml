@@ -53,3 +53,29 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: classic
+  
+  # Minima date format.
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #date_format: "%b-%d-%Y"
+
+  # Generate social links in footer.
+  social_links:
+    - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+    - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+    - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+    - { platform: x,              user_url: "https://x.com/jekyllrb" }
+    - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
