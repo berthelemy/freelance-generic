@@ -1,5 +1,5 @@
 ---
 title: About
-layout: default
+layout: base
 ---
 Some stuff about you
