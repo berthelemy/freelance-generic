@@ -1,6 +1,6 @@
 ---
 title: Services
-layout: base
+layout: page
 ---
 Some stuff about what you offer
 
