@@ -1,5 +1,5 @@
 ---
 title: Home
-layout: home
+layout: default
 ---
 This is my first page.
